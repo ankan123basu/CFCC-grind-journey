@@ -1,33 +1,76 @@
 <div align="center">
   <h1>🚀 Competitive Programming Solutions</h1>
   
-  <div style="display: flex; justify-content: center; gap: 20px; margin: 30px 0;">
-    <a href="https://codeforces.com/profile/ankanbasu10">
-      <img src="https://codeforces.org/s/0/images/codeforces-logo-with-telegram.png" alt="CodeForces" width="300">
+  <!-- Large Platform Logos -->
+  <div style="display: flex; justify-content: center; gap: 50px; margin: 40px 0;">
+    <a href="https://codeforces.com/profile/ankanbasu10" style="text-decoration: none;">
+      <img src="https://codeforces.org/s/0/images/codeforces-logo-with-telegram.png" alt="CodeForces" style="width: 350px; height: auto; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
-    <a href="https://www.codechef.com/users/ankanbasu10">
-      <img src="https://static.startuptalky.com/2021/04/codechef-logo-startuptalky.jpg" alt="CodeChef" width="300">
+    <a href="https://www.codechef.com/users/ankanbasu10" style="text-decoration: none;">
+      <img src="https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6acb49ac.png" alt="CodeChef" style="width: 350px; height: auto; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
   </div>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=00F718&background=000000&center=true&vCenter=true&width=800&lines=Welcome+to+my+Competitive+Programming+Solutions+Repository!;Here+you'll+find+my+solutions+to+various+CP+problems;Organized+by+platform+and+difficulty+ratings;Happy+Coding!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=00F718&background=000000&center=true&vCenter=true&width=800&lines=Welcome+to+my+Competitive+Programming+Solutions+Repository!;Here+you'll+find+my+solutions+to+various+CP+problems;Organized+by+platform+and+difficulty+ratings;Happy+Coding!" alt="Typing SVG" style="margin: 20px 0 40px 0;"/>
 </div>
 
-## 🏆 My Stats
+## 🏆 My Coding Stats
 
-<div align="center" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin: 30px 0;">
-  <div>
-    <h3>CodeForces</h3>
-    <a href="https://codeforces.com/profile/ankanbasu10">
-      <img src="https://codeforces-readme-stats.vercel.app/api?username=ankanbasu10&theme=dark&show_icons=true" alt="CodeForces Stats" width="400">
-    </a>
+<div align="center" style="margin: 40px 0;">
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 30px;">
+    <!-- CodeForces Card -->
+    <div style="background: #1a1a2e; border-radius: 10px; padding: 20px; width: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <h3 style="color: #1F8ACB; margin-top: 0;">CodeForces</h3>
+      <div style="display: flex; flex-direction: column; gap: 15px; text-align: left; padding: 0 15px;">
+        <div>
+          <span style="color: #aaa;">Handle: </span>
+          <a href="https://codeforces.com/profile/ankanbasu10" style="color: #4CAF50; text-decoration: none;">ankanbasu10</a>
+        </div>
+        <div>
+          <span style="color: #aaa;">Rating: </span>
+          <span style="color: #4CAF50; font-weight: bold;">Pupil</span>
+        </div>
+        <div>
+          <span style="color: #aaa;">Max Rating: </span>
+          <span style="color: #4CAF50; font-weight: bold;">1200+</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CodeChef Card -->
+    <div style="background: #1a1a2e; border-radius: 10px; padding: 20px; width: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <h3 style="color: #B0B040; margin-top: 0;">CodeChef</h3>
+      <div style="display: flex; flex-direction: column; gap: 15px; text-align: left; padding: 0 15px;">
+        <div>
+          <span style="color: #aaa;">Handle: </span>
+          <a href="https://www.codechef.com/users/ankanbasu10" style="color: #4CAF50; text-decoration: none;">ankanbasu10</a>
+        </div>
+        <div>
+          <span style="color: #aaa;">Rating: </span>
+          <span style="color: #4CAF50; font-weight: bold;">3★ Coder</span>
+        </div>
+        <div>
+          <span style="color: #aaa;">Max Rating: </span>
+          <span style="color: #4CAF50; font-weight: bold;">1600+</span>
+        </div>
+      </div>
+    </div>
   </div>
   
-  <div>
-    <h3>CodeChef</h3>
-    <a href="https://www.codechef.com/users/ankanbasu10">
-      <img src="https://cp-logo.vercel.app/codechef/ankanbasu10" alt="CodeChef Rating" width="400">
-    </a>
+  <!-- Stats Grid -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px;">
+    <div style="background: #1a1a2e; padding: 15px; border-radius: 8px; text-align: center;">
+      <div style="font-size: 1.8em; font-weight: bold; color: #4CAF50;">100+</div>
+      <div style="color: #aaa;">Problems Solved</div>
+    </div>
+    <div style="background: #1a1a2e; padding: 15px; border-radius: 8px; text-align: center;">
+      <div style="font-size: 1.8em; font-weight: bold; color: #4CAF50;">50+</div>
+      <div style="color: #aaa;">Contests</div>
+    </div>
+    <div style="background: #1a1a2e; padding: 15px; border-radius: 8px; text-align: center;">
+      <div style="font-size: 1.8em; font-weight: bold; color: #4CAF50;">2+</div>
+      <div style="color: #aaa;">Years of CP</div>
+    </div>
   </div>
 </div>
 
